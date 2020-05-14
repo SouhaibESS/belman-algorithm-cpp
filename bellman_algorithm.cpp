@@ -188,7 +188,7 @@ int main(int argc, char const *argv[])
         for(int i = 0 ; i < numNodes ; i++)
         {
             cout<<"    |-> node ("<<i + 1<<") ";
-            cout<<"| from node: ("<<pathes[i].from<<")";
+            cout<<"| from node: ("<<pathes[i].from + 1<<")";
             cout<<" | cost : "<<pathes[i].dist;
             if(pathes[i].dist == INF)
                 cout<<" no path";
